@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+body{
+    background-image: url(../img/pexel1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    width: 30%;
+    height: 90vh;
+    border-radius: 1ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 1px 5px 10px black;
+}
+.sign{
+    font-size: 5ch;
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 70%;
+    border-radius: 5ch;
+    border: none;
+    padding: 1ch;
+    margin: 1ch;
+    font-size: 2ch;
+    outline-color: blue;
+
+}
+.log{
+    padding: 5px;
+    margin: 1ch;
+    background-color: aqua;
+    color: magenta;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    font-size: 3ch;
+    /* background-image: linear-gradient(darkred, blueviolet); */
+}
+.foot{
+    font-size: 3ch;
+}
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 45%;
+    height: 1.5px;
+    margin: 1ch;
+    background-color: black;
+    border: none;
+}
+.or{
+    font-size: 3ch;
+    color: black;
+}
+.cont{
+    font-size: 5ch;
+    color: blueviolet;
+}
+.pics{
+    width: 80%;
+    /* background-color: red; */
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: 5s;
+    /* background-color: red; */
+}
+.face{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 5ch;
+}
+.gram{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 5ch;
+}
+.twit{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 5ch;
+}
+.goog{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 5ch;
+}
+.yout{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 5ch;
+}

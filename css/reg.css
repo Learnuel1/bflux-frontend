@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    margin: 3ch;
+    /* background-color: blue; */
+    width: 2%;
+    height: 4%;
+    border-radius: 80ch;
+    animation: slide1 2s ease infinite;
+}
+.div2{
+    margin: 3ch;
+    /* background-color: blue; */
+    width: 2%;
+    height: 4%;
+    border-radius: 80ch;
+    animation: slide2 2s ease infinite;
+}
+.div3{
+    margin: 3ch;
+    /* background-color: blue; */
+    width: 2%;
+    height: 4%;
+    border-radius: 80ch;
+    animation: slide3 2s ease infinite;
+}
+.div4{
+    margin: 3ch;
+    /* background-color: blue; */
+    width: 2%;
+    height: 4%;
+    border-radius: 80ch;
+    animation: slide4 2s ease infinite;
+}
+.div5{
+    margin: 3ch;
+    /* background-color: blue; */
+    width: 2%;
+    height: 4%;
+    border-radius: 80ch;
+    animation: slide5 2s ease infinite;
+}
+@keyframes slide1{
+    0%{
+    }
+    20%{
+        background-color: blue;
+        width: 4%;
+        height: 8%;
+    }
+    40%{
+    }
+    60%{
+    }
+    80%{
+    }
+    100%{
+    }
+}
+@keyframes slide2{
+    0%{
+    }
+    20%{
+    }
+    40%{
+        background-color: blue;
+        width: 4%;
+        height: 8%;
+    }
+    60%{
+    }
+    80%{
+    }
+    100%{
+    }
+}
+@keyframes slide3{
+    0%{
+    }
+    20%{
+    }
+    40%{
+    }
+    60%{
+        width: 4%;
+        height: 8%;
+        background-color: blue;
+    }
+    80%{
+    }
+    100%{
+    }
+}
+@keyframes slide4{
+    0%{
+    }
+    20%{
+    }
+    40%{
+    }
+    60%{
+    }
+    80%{
+        background-color: blue;
+        width: 4%;
+        height: 8%;
+    }
+    100%{
+    }
+}
+@keyframes slide5{
+    0%{
+    }
+    20%{
+    }
+    40%{
+    }
+    60%{
+    }
+    80%{
+    }
+    100%{
+        background-color: blueU;
+        width: 4%;
+        height: 8%;
+        /* animation-timing-function: ease-in-out; */
+    }
+}

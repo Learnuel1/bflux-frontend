@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.beauty{
+    margin-top: -2ch;
+}
+.about{
+    font-family: monospace;
+    font-size: 4ch;
+    width: 100%;
+    /* background-color: red; */
+}
+.heads{
+    font-size: 6ch;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    margin: 5ch;
+    margin-left: 8ch;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 5px 15px black; */
+}
+.mages1{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-left: 120ch;
+    margin-top: 20ch;
+    /* box-shadow: 1px 5px 15px black; */
+}
+.value{
+    margin-top: 5ch;
+    width: 100%;
+    font-size: 4ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secs{
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    margin: 5ch;
+    margin-left: 68ch;
+    justify-content: center;
+    align-items: center;
+}
+.pixel{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-right: 120ch;
+    margin-top: 7ch;
+}
+.end{
+    margin: 7ch;
+}

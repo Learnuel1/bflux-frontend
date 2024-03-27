@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../css/Sign-Up.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="contain">
+            <form action="">
+            <p class="sign">Sign Up</p>
+            <div class="input">
+                <input type="text" placeholder="firstname" id="fname">
+                <input type="text" placeholder="lastname" id="lname">
+                <input type="text" placeholder="username" id="username">
+                <input type="email" placeholder="input email" id="email">
+                <input type="date" id="birthDate">
+                <input type="text" placeholder="enter address" id="adr">
+                <input type="password" placeholder="enter password" id="password">
+                <input type="password" placeholder="confirm password" id="confirm">
+            </div>
+            <button class="log" id="sign" onclick="signUp(event)">Sign up</button>
+            <div class="div">
+                <hr>
+                <label for="text" class="or">or</label>
+                <hr>
+            </div>
+            <label for="text" class="cont">Continue with</label>
+            <div class="pics">
+                
+                <img src="../img/facebook.png" width="40px" class="face">
+                <img src="../img/gram.jpeg" width="40px" class="gram">
+                <img src="../img/twitter.jpeg" width="40px" class="twit">
+                <img src="../img/google.jpeg" width="35px" class="goog">
+                <img src="../img/youtube.jpg" width="40px" class="yout">
+            </div>
+            <footer class="foot">
+                Already have an account
+                <a href="./Sign-In.html">Log in</a>
+            </footer>
+        </form>
+        </div>
+    </div>
+    <script src="../src/api/bflux.js"></script>
+    <script src="../src/routes.js"></script>
+    <script src="../src/functions/utils.js"></script>
+     
+</body>
+
+</html>

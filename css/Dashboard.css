@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    /* background-image: url(../img/A0.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dash1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    border: 2px solid black;
+    /* padding: 2ch; */
+}
+.dashpo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 25%;
+    height: 99vh;
+    background-color: rgb(226, 223, 223);
+}
+.dash_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.circle{
+    clip-path: circle(48% at 50% 50%);
+}
+.name{
+    font-size: 5ch;
+}
+.occup{
+    font-size: 3ch;
+}
+.hr{
+    width: 100%;
+    color: black;
+    height: 1px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    font-size: 3ch;
+    font-family: monospace;
+    margin-top: 3ch;
+    color: black;
+}
+.sideicon{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+}
+.sideicon:hover{
+    background-color: rgb(165, 163, 163);
+}
+.dashlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    font-size: 3ch;
+    font-family: monospace;
+    margin-top: 2ch;
+    color: red;
+}
+.dashbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* filter: blur(4px); */
+    margin: 2ch;
+    /* border: 1px solid; */
+    /* border-radius: 8ch; */
+}
+.dashb{
+    border-radius: 1ch;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: center; */
+    border: 1px solid;
+    height: 36vh;
+    padding: 3ch;
+}
+.imgdash{
+    width: 39%;
+    /* margin: 3ch; */
+    margin-left: 8ch;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.g{
+    clip-path: circle(48% at 50% 50%);
+}
+.bi bi-circle-fill{
+    font-size: 5ch;
+}
+.labdash{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: -15ch;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f{
+    font-size: 5ch;
+    padding-bottom: 10px;
+}
+.b{
+    font-size: 2ch;
+}
+.hrs{
+    width: 100%;
+    margin-top: 1.5ch;
+}
+.dashv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 2ch;
+    margin-left: -2ch;
+}
+.vlc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.num{
+    font-size: 2.8ch;
+}
+.scrolls{
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-top: 5ch;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
+}
+.scroll{
+    /* border: 1px solid blue; */
+    width: 90%;
+    border-radius: 3ch;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2ch;
+    padding-right: 5ch;
+    margin-top: 3ch;
+    margin-left: 5ch;
+    margin-bottom: 3ch;
+    box-shadow: 0px 0px 5px black;
+}
+.scroll_img{
+    margin-left: ch;
+    margin-top: -2ch;
+    width: 46%;
+}
+.s{
+    clip-path: circle(38% at 50% 50%);
+}
+.long{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: -13ch;
+}
+.long1{
+    font-size: 3ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.long2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.dash_icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -4ch;
+    margin-top: 2ch;
+}

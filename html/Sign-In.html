@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="../css/Sign-In.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contain">
+            <p class="sign">Sign In</p>
+            <div class="input">
+                <input type="text" placeholder="input username" id="username">
+                <input type="password" placeholder="input password" id="password">
+            </div>
+            <button class="log" onclick="signIn(event)">Login</button>
+            <div class="div">
+                <hr>
+                <label for="text" class="or">or</label>
+                <hr>
+            </div>
+            <label for="text" class="cont">Continue with</label>
+            <div class="pics">
+                <!-- <a href="#"> -->
+                <img src="../img/facebook.png" width="40px" class="face">
+                <img src="../img/gram.jpeg" width="40px" class="gram">
+                <img src="../img/twitter.jpeg" width="40px" class="twit">
+                <img src="../img/google.jpeg" width="35px" class="goog">
+                <img src="../img/youtube.jpg" width="40px" class="yout">
+                <!-- </a> -->
+            </div>
+            <footer class="foot">Don't have an account
+                <a href="./Sign-up.html">Sign up</a>
+            </footer>
+        </div>
+    </div>
+    <script src="../src/api/bflux.js"></script>
+    <script src="../src/routes.js"></script>
+    <script src="../src/functions/utils.js"></script>
+</body>
+
+</html>
